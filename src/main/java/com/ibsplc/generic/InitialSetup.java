@@ -34,10 +34,13 @@ public class InitialSetup extends BaseSetup{
 	String flag;
 	public static boolean skip;
 //Sauce lab Credentials (Added by U-1452)
-	public static final String USERNAME= "sso-aa-Sharath.Madananth";
-	public static final String ACCESS_KEY= "ffa62482-99ff-45c3-8044-557e05d6e503";
-	public static final String URL= "https://" + USERNAME + ":" + ACCESS_KEY +"@ondemand.us-west-1.saucelabs.com:443/wd/hub";
+//	public static final String USERNAME= "sso-aa-Sharath.Madananth";
+//	public static final String ACCESS_KEY= "ffa62482-99ff-45c3-8044-557e05d6e503";
+//	public static final String URL= "https://" + USERNAME + ":" + ACCESS_KEY +"@ondemand.us-west-1.saucelabs.com:443/wd/hub";
 
+	public static final String USERNAME= "sso-aa-Prashanth.Gurupadham";
+	public static final String ACCESS_KEY= "c846f278-bbb9-4d13-8410-b82054ef373e";
+	public static final String URL= "https://" + USERNAME + ":" + ACCESS_KEY +"@ondemand.us-west-1.saucelabs.com:443/wd/hub";
 	public void flagSetBooking(String PropfilePath)
 	{
 		 String dataFilePath = PropertyHandler.getPropValue(
