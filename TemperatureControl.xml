@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression" parallel="tests">
+	<parameter name="browser" value="chrome_remote" />
+	<parameter name="portalURL" value="https://icargocloud-aastg.ibsplc.aero/aastag/loginFlow" />
+	<listeners>
+		<listener class-name="com.ibsplc.common.BaseSetup" />
+	</listeners>
+	
+	<test name="TCRegression" preserve-order="true">
+	
+		<classes>
+			<!-- <class name="runner.Flow01" /> -->
+			<class name="runner.Flow02" />
+		</classes>
+	</test>
+</suite>
