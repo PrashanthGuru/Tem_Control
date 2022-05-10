@@ -1,5 +1,5 @@
 #Temperature Control Regression Suite
-Hi Team, this is IBS Automation team. and this repository contains claims regression suite.
+Hi Team, this is IBS Automation team. and this repository contains Temprature Control regression suite.
 
 Execution Steps:
 
